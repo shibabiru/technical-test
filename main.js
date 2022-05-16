@@ -40,7 +40,7 @@ function init() {
 
     const geometry = new THREE.SphereGeometry(100, 64, 64);
     const material = new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/earthmap1k.jpg"),
+        map: new THREE.TextureLoader().load("./earthmap1k.jpg"),
         side: THREE.DoubleSide,
     });
     earth = new THREE.Mesh(geometry, material);
