@@ -1,3 +1,4 @@
+/* Add temperature conversion function */
 const celsius = document.getElementById('celsius');
 const fahrenheit = document.getElementById('fahrenheit');
 
@@ -11,7 +12,16 @@ fahrenheit.oninput = () => {
     celsius.value = parseFloat(output.toFixed(2));
 };
 
-/* Add earth */
+/* Add light mode */
+const modeToggle = document.querySelector('.mode-tog');
+const lightMode = document.querySelector('.light-mode');
+
+modeToggle.addEventListener('click', () => {
+    lightMode.classList.toggle('active');
+    modeToggle.classList.toggle('active');
+})
+
+/* Add earth design */
 window.addEventListener("load", init);
 
 let scene, camera, renderer, earth
