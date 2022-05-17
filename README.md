@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/87594563/168802032-509af271-717e-48ed-
 ## Description
 - __Purpose of this web application__
   - A service that allows anyone in the world to check the temrerature instantly
-- __Why I made this UI　designs__
+- __Why I made this UI designs__
   - Modeled on a globe reminiscent of the world
   - Emphasize design elements in 3D to give a visually more enjoyable user experience
   - By rotating the earth, it shows that it corresponds to the whole world without deciding on a specific country.
