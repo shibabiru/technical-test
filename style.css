@@ -71,7 +71,7 @@ canvas {
     align-items: center;
     color: white;
     display: flex;
-    height: 14vh;
+    height: 40vh;
     justify-content: space-evenly;
     margin: 0 auto;
     mix-blend-mode: difference;
@@ -111,7 +111,6 @@ input {
     height: 35px;
     margin-top: 8px;
     outline: none;
-    width: 100%;
 }
 
 @media screen and (max-width: 600px) {

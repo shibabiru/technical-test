@@ -46,7 +46,7 @@ function init() {
     earth = new THREE.Mesh(geometry, material);
     scene.add(earth);
 
-    const pointLight = new THREE.PointLight(0xffffff, 1.8);
+    const pointLight = new THREE.PointLight(0xffffff, 1.9);
     pointLight.position.set(150, 150, 200);
     scene.add(pointLight);
 
