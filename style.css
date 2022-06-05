@@ -7,9 +7,9 @@
     body,
     html {
         background: linear-gradient(313deg, #0b1a2b 33%, #3a6291 111%);
-        height: 1126px;
+        height: 100vh;
         overflow: hidden;
-        width: 1200px;
+        width: 100vw;
     }
     
     .mode-tog {
@@ -126,6 +126,13 @@
             overflow: hidden;
             width: 175vw
         }
+        input {
+            border-radius: 5px;
+            font-size: 20px;
+            margin-top: 8px;
+            outline: none;
+            width: 20vw
+        }
     }
     
     @media (max-width: 900px) {
@@ -146,6 +153,6 @@
             font-size: 20px;
             margin-top: 8px;
             outline: none;
-            width: vw
+            width: 20vw
         }
     }
